@@ -1,0 +1,12 @@
+auth_url = None
+bearer_token = None 
+client = None
+crypto_key = None
+secret = None
+url = None
+keyVaultName = None
+KVUri= None
+conf_dict={}
+project_id = None
+dataset_id = None
+workshop_name = None
