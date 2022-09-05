@@ -17,6 +17,6 @@ Encounters can be encrypted by running methods in crypt/crypt.py
 To pull a list of encouners/demographics/diagnoses:
 python main.py -e <encrypted_file.bin>
 
-The -bgq parameter allows export to Google Bigquery, but must be set up once per machine. Application will prompt login.
+The -gbq parameter allows export to Google Bigquery, but must be set up once per machine. Application will prompt login.
 
 
