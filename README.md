@@ -1,10 +1,10 @@
 This application is used to pull records over FHIR and export to cloud. 
 A system account is required, as is client/secret pair provided by Vendor.
-This was designed to work at our institution inconjunction with various demand management requirements, including:
+This was designed to work at our institution in conjunction with various demand management requirements, including:
 
-Secure key storage on Azure
-AES256 encryption of data at rest
-Non-bulk FHIR availability.
+- Secure key storage on Azure
+- AES256 encryption of data at rest
+- Non-bulk FHIR availability.
 
 It is expected that the records of interest are known in advance prior to running the application.
 For our purposes, encounters are pulled via SQL and encrypted using AES256 as input file with encounter ids.
